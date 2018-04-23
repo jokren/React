@@ -1,0 +1,196 @@
+.main2 {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.travlecon-two{
+	margin-top: 440px;
+}
+/*four*/
+#travlecon-four {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-top: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#travlecon-four .travle-four-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#travlecon-four .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#travlecon-four .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#travlecon-four .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#travlecon-four .ting-info .ting-others {
+    font-weight: lighter;
+}
+#travlecon-four .travle-four-img img{
+
+	transition: all 0.6s;
+}
+#travlecon-four .travle-four-img img:hover{
+	transform: scale(1.2);
+	
+}
+#travlecon-four span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#travlecon-four .travle-four-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+
+/*five*/
+#travlecon-five {
+	margin-top: 20px;
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#travlecon-five .travle-five-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#travlecon-five .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#travlecon-five .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#travlecon-five .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#travlecon-five .ting-info .ting-others {
+    font-weight: lighter;
+}
+#travlecon-five .travle-five-img img{
+
+	transition: all 0.6s;
+}
+#travlecon-five .travle-five-img img:hover{
+	transform: scale(1.2);
+	
+}
+#travlecon-five span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#travlecon-five .travle-five-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+
+/*six*/
+#travlecon-six {
+	margin-bottom: 140px;
+	margin-top: 20px;
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#travlecon-six .travle-six-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#travlecon-six .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#travlecon-six .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#travlecon-six .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#travlecon-six .ting-info .ting-others {
+    font-weight: lighter;
+}
+#travlecon-six .travle-six-img img{
+
+	transition: all 0.6s;
+}
+#travlecon-six .travle-six-img img:hover{
+	transform: scale(1.2);
+	
+}
+#travlecon-six span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#travlecon-six .travle-six-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}

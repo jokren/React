@@ -1,0 +1,193 @@
+.radio-voice-main {
+	width: 960px;
+	margin: 0 auto;
+}
+.radio-voice{
+	font-size: 17px;
+	margin-top: 470px;
+}
+#radiovoicecon-one {
+
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#radiovoicecon-one .radiovoice-one-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#radiovoicecon-one .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#radiovoicecon-one .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#radiovoicecon-one .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#radiovoicecon-one .ting-info .ting-others {
+    font-weight: lighter;
+}
+#radiovoicecon-one .radiovoice-one-img img{
+
+	transition: all 0.6s;
+}
+#radiovoicecon-one .radiovoice-one-img img:hover{
+	transform: scale(1.2);
+	
+}
+#radiovoicecon-one span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#radiovoicecon-one .radiovoice-one-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#radiovoicecon-two {
+	margin-left: 20px;
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#radiovoicecon-two .radiovoice-two-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#radiovoicecon-two .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#radiovoicecon-two .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#radiovoicecon-two .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#radiovoicecon-two .ting-info .ting-others {
+    font-weight: lighter;
+}
+#radiovoicecon-two .radiovoice-two-img img{
+
+	transition: all 0.6s;
+}
+#radiovoicecon-two .radiovoice-two-img img:hover{
+	transform: scale(1.2);
+	
+}
+#radiovoicecon-two span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#radiovoicecon-two .radiovoice-two-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#radiovoicecon-three {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#radiovoicecon-three .radiovoice-three-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+#radiovoicecon-three .radiovoice-three-img img{
+	width: 300px;
+	height: 300px;
+}
+#radiovoicecon-three .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#radiovoicecon-three .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#radiovoicecon-three .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#radiovoicecon-three .ting-info .ting-others {
+    font-weight: lighter;
+}
+#radiovoicecon-three .radiovoice-three-img img{
+
+	transition: all 0.6s;
+}
+#radiovoicecon-three .radiovoice-three-img img:hover{
+	transform: scale(1.2);
+	
+}
+#radiovoicecon-three span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#radiovoicecon-three .radiovoice-three-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}

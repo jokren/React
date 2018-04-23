@@ -1,0 +1,194 @@
+.musicmain3 {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.musiccon-three{
+	margin-top: 880px;
+}
+/*four*/
+#musiccon-seven{
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#musiccon-seven .music-seven-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#musiccon-seven .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#musiccon-seven .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#musiccon-seven .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#musiccon-seven .ting-info .ting-others {
+    font-weight: lighter;
+}
+#musiccon-seven .music-seven-img img{
+
+	transition: all 0.6s;
+}
+#musiccon-seven .music-seven-img img:hover{
+	transform: scale(1.2);
+	
+}
+#musiccon-seven span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#musiccon-seven .music-seven-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+
+/*five*/
+#musiccon-eight {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#musiccon-eight .music-eight-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#musiccon-eight .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#musiccon-eight .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#musiccon-eight .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#musiccon-eight .ting-info .ting-others {
+    font-weight: lighter;
+}
+#musiccon-eight .music-eight-img img{
+
+	transition: all 0.6s;
+}
+#musiccon-eight .music-eight-img img:hover{
+	transform: scale(1.2);
+	
+}
+#musiccon-eight span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#musiccon-eight .music-eight-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+
+/*six*/
+#musiccon-nine {
+	margin-bottom: 140px;
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#musiccon-nine .music-nine-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#musiccon-nine .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#musiccon-nine .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#musiccon-nine .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#musiccon-nine .ting-info .ting-others {
+    font-weight: lighter;
+}
+#musiccon-nine .music-nine-img img{
+
+	transition: all 0.6s;
+}
+#musiccon-nine .music-nine-img img:hover{
+	transform: scale(1.2);
+	
+}
+#musiccon-nine span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#musiccon-nine .music-nine-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}

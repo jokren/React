@@ -1,0 +1,10 @@
+var user={}
+user.tel=""
+user.pwd=""
+user.email=""
+user.name=""
+user.img="http://qnstatic.pianke.me/public/assets/img/user-default-img.png"
+user.xixi=""
+user.sex=""
+user.title=""
+module.exports = user

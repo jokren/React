@@ -1,0 +1,80 @@
+
+#hoverImg{
+padding-top:126px;
+
+}
+#img1{
+position:relative;
+width:480px;
+height:480px;
+overflow:hidden;
+float:left;
+}
+#sp1{
+display:inline-block;
+width:100%;
+background-color:rgba(0, 0, 0, 0);
+height:80px;
+position:absolute;
+bottom:0;
+left:0;
+opacity:0;
+}
+#sp1:before{
+content: '';
+bottom: 54px;
+position: absolute;
+width: 30px;
+height: 1px;
+left: 20px;
+border-top: 1px solid #fff;
+}
+#sp2{
+position: absolute;
+bottom: 23px;
+font-weight: 200;
+font-size: 18px;
+opacity: 0;
+height: 18px;
+width: 250px;
+left: 20px;
+line-height: 20px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+color: #fff;
+}
+#img1:hover #sp1{
+ background-color:#000;
+opacity:0.5;
+}
+#img1:hover #sp2{
+opacity: 1;
+}
+#img1:hover .img2{
+transform: scale(1.1,1.1);
+transition: transform 400ms linear;
+}
+
+/*ul*/
+#oul>li{
+float:left;
+}
+.allimg{
+position:relative;
+width:240px;
+height:240px;
+overflow:hidden;
+}
+
+.allimg:hover #sp1{
+background-color:#000;
+opacity:0.5;
+}
+.allimg:hover #sp2{
+opacity: 1;
+}
+.allimg:hover .img2{
+transform: scale(1.1,1.1);
+transition: transform 400ms linear;
+}

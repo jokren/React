@@ -1,0 +1,94 @@
+#hot{
+
+}
+#title{
+font-size:16px;
+clear: both;
+padding-bottom: 40px;
+background-repeat: no-repeat;
+padding-top: 70px;
+padding-left: 28px;
+background-position: 0 74px;
+background-image: url(https://qnstatic.pianke.me/public/assets/img/square.png);
+}
+/*user-list*/
+.user-list{
+margin-left: -13px;
+}
+.user-cpt{
+float: left;
+margin-left: 13px;
+width: 230px;
+height: 235px;
+background-image: url(https://qnstatic.pianke.me/public/assets/img/user-bg.png);
+background-size: cover;
+}
+.u-info{
+width: 180px;
+height: 144px;
+padding-top: 43px;
+padding-left: 20px;
+}
+.user-left{
+width: 80px;
+display: inline-block;
+position: absolute;
+text-align: center;
+}
+.user-left a img{
+width:80px;
+height:80px;
+border-radius:50%;
+}
+.user-left>img{
+display:inline-block;
+width:52px;
+padding-top:5px;
+}
+.user-right{
+width: 80px;
+margin-left: 100px;
+padding-top: 20px;
+display: inline-block;
+color: #333;
+font-size: 13px;
+}
+.user-right a{
+color:#333
+}
+.user-name{
+font-size: 16px;
+height: 44px;
+}
+.user-des{
+padding-top: 6px;
+font-weight: 100;
+color: #666;
+position: relative;
+}
+.user-des:before{
+content: '';
+position: absolute;
+width: 15px;
+height: 1px;
+top: 0;
+border-top: 1px solid #666;
+}
+
+/*back-top*/
+.back-top{
+cursor: pointer;
+width: 52px;
+height: 52px;
+border-radius: 50%;
+position: fixed;
+bottom: 170px;
+right: 50px;
+background-image: url(https://qnstatic.pianke.me/public/assets/img/back-top.png);
+background-size: cover;
+opacity: .1;
+}
+.back-top:hover{
+background-image: url(https://qnstatic.pianke.me/public/assets/img/back-topH.png);
+opacity: .8;
+}

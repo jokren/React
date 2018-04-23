@@ -1,0 +1,223 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    background-repeat: repeat-x;
+    font-family: "PingFang SC","微软雅黑";
+    color: #333
+}
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    min-width: 1200px;
+    background-color: rgba(255,255,255,0.95);
+    height: 90px;
+    -ms-box-shadow: 0 1px 4px 0 #ececec;
+    -webkit-box-shadow: 0 1px 4px 0 #ececec;
+    -moz-box-shadow: 0 1px 4px 0 #ececec;
+    box-shadow: 0 1px 4px 0 #ececec;
+}
+header .head {
+    line-height: 90px;
+    width: 1200px;
+    margin: 0 auto;
+}
+header .head .head-logo {
+    position: relative;
+    background-color: #fff;
+    background-image: url(../client/img/head-logo.png);
+    width: 80px;
+    height: 90px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header .head .head-logo a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    margin-top: -90px;
+    margin-left: 172px;
+}
+.navbar li {
+    text-align: center;
+    float: left;
+    font-size: 16px;
+}
+.navbar li a {
+    padding: 26px;
+    color: #333;
+}
+.hidden {
+    display: none !important;
+}
+.active {
+    font-weight: bolder;
+}
+.navbar li:active, .navbar .active {
+    background-color: #fbfbfb;
+    font-weight: bolder;
+    -ms-box-shadow: inset 0 -3px 0 0 #333;
+    -webkit-box-shadow: inset 0 -3px 0 0 #333;
+    -moz-box-shadow: inset 0 -3px 0 0 #333;
+    box-shadow: inset 0 -3px 0 0 #333;
+}
+header .head .navbar-icon {
+    display: inline-block;
+    float: right;
+}
+header .head .navbar-icon .editer {
+    cursor: pointer;
+    margin-right: 25px;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #57ad68;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header .head .navbar-icon .editer div {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    margin-top: 1.5px;
+    margin-left: 2px;
+    background: linear-gradient(to right,rgba(101,181,117,0.9),#55b668);
+    background: -o-linear-gradient(right,rgba(101,181,117,0.9),#55b668);
+    background: -moz-linear-gradient(right,rgba(101,181,117,0.9),#55b668);
+    background: -webkit-linear-gradient(left,rgba(101,181,117,0.9),#55b668);
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+header .head .navbar-icon .editer img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -9.5px;
+    margin-top: -10px;
+    vertical-align: middle;
+}
+.login-btn {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 44px;
+    width: 126px;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid rgba(120,188,133,0.5);
+    -ms-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    color: #57ad68;
+    cursor: pointer;
+}
+header .head .navbar-icon div {
+    display: inline-block;
+}
+.login-btn span {
+    opacity: .5;
+}
+header .head .navbar-icon .massage {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 61px;
+}
+header .head .navbar-icon .massage .msgnum {
+    width: 21px;
+    line-height: 21px;
+    color: #fff;
+    margin-left: -15px;
+    font-size: 12px;
+    background-color: #e86f6f;
+    text-align: center;
+    vertical-align: sub;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    -ms-box-shadow: 0 -1px 3px 0 rgba(224,106,106,0.8) inset,0 1px 3px 0 rgba(255,72,72,0.5) inset;
+    -webkit-box-shadow: 0 -1px 3px 0 rgba(224,106,106,0.8) inset, 0 1px 3px 0 rgba(255,72,72,0.5) inset;
+    -moz-box-shadow: 0 -1px 3px 0 rgba(224,106,106,0.8) inset,0 1px 3px 0 rgba(255,72,72,0.5) inset;
+    box-shadow: 0 -1px 3px 0 rgba(224,106,106,0.8) inset, 0 1px 3px 0 rgba(255,72,72,0.5) inset;
+}
+.msg-menu {
+    top: 90px;
+    left: 0;
+    position: absolute;
+}
+header .head .navbar-icon div .drop-menu {
+    display: none;
+    margin-left: -25px;
+    margin-top: -5px;
+    width: 100px;
+    line-height: 36px;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    -ms-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px 16px;
+}
+.drop-menu:before {
+    top: 0;
+    left: 0;
+    margin-left: 17px;
+    margin-top: -11px;
+    content: ' ';
+    background-color: #fff;
+    position: absolute;
+    border: 1px solid transparent;
+    border-top-color: #e8e8e8;
+    border-left-color: #e8e8e8;
+    width: 12px;
+    height: 12px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.msg-menu ul {
+    width: 100%;
+}
+.massage .msg-menu ul li:nth-child(1) {
+    border-bottom: 1px solid #e8e8e8;
+}
+.navbar-icon .userinfo {
+    position: relative;
+}
+.navbar-icon .userinfo .user-icon {
+    height: 42px;
+    width: 42px;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #e8e8e8;
+}
+.msg-icon,.user-icon{
+    display: inline-block;
+    vertical-align: middle;
+}

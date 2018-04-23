@@ -1,0 +1,193 @@
+.radio-top-main {
+	width: 960px;
+	margin: 0 auto;
+}
+.radio-top{
+	font-size: 17px;
+	margin-top: 470px;
+}
+#radiotopcon-one {
+
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#radiotopcon-one .radiotop-one-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#radiotopcon-one .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#radiotopcon-one .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#radiotopcon-one .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#radiotopcon-one .ting-info .ting-others {
+    font-weight: lighter;
+}
+#radiotopcon-one .radiotop-one-img img{
+
+	transition: all 0.6s;
+}
+#radiotopcon-one .radiotop-one-img img:hover{
+	transform: scale(1.2);
+	
+}
+#radiotopcon-one span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#radiotopcon-one .radiotop-one-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#radiotopcon-two {
+	margin-left: 20px;
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#radiotopcon-two .radiotop-two-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#radiotopcon-two .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#radiotopcon-two .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#radiotopcon-two .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#radiotopcon-two .ting-info .ting-others {
+    font-weight: lighter;
+}
+#radiotopcon-two .radiotop-two-img img{
+
+	transition: all 0.6s;
+}
+#radiotopcon-two .radiotop-two-img img:hover{
+	transform: scale(1.2);
+	
+}
+#radiotopcon-two span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#radiotopcon-two .radiotop-two-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#radiotopcon-three {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#radiotopcon-three .radiotop-three-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+#radiotopcon-three .radiotop-three-img img{
+	width: 300px;
+	height: 300px;
+}
+#radiotopcon-three .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#radiotopcon-three .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#radiotopcon-three .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#radiotopcon-three .ting-info .ting-others {
+    font-weight: lighter;
+}
+#radiotopcon-three .radiotop-three-img img{
+
+	transition: all 0.6s;
+}
+#radiotopcon-three .radiotop-three-img img:hover{
+	transform: scale(1.2);
+	
+}
+#radiotopcon-three span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#radiotopcon-three .radiotop-three-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}

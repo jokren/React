@@ -1,0 +1,189 @@
+.musicconmain {
+	width: 960px;
+	margin: 0 auto;
+}
+#musiccon-one {
+
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#musiccon-one .music-one-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#musiccon-one .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#musiccon-one .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#musiccon-one .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#musiccon-one .ting-info .ting-others {
+    font-weight: lighter;
+}
+#musiccon-one .music-one-img img{
+
+	transition: all 0.6s;
+}
+#musiccon-one .music-one-img img:hover{
+	transform: scale(1.2);
+	
+}
+#musiccon-one span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#musiccon-one .music-one-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#musiccon-two {
+	margin-left: 20px;
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#musiccon-two .music-two-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#musiccon-two .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#musiccon-two .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#musiccon-two .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#musiccon-two .ting-info .ting-others {
+    font-weight: lighter;
+}
+#musiccon-two .music-two-img img{
+
+	transition: all 0.6s;
+}
+#musiccon-two .music-two-img img:hover{
+	transform: scale(1.2);
+	
+}
+#musiccon-two span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#musiccon-two .music-two-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#musiccon-three {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#musiccon-three .music-three-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+#musiccon-three .music-three-img img{
+	width: 300px;
+	height: 300px;
+}
+#musiccon-three .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#musiccon-three .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#musiccon-three .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#musiccon-three .ting-info .ting-others {
+    font-weight: lighter;
+}
+#musiccon-three .music-three-img img{
+
+	transition: all 0.6s;
+}
+#musiccon-three .music-three-img img:hover{
+	transform: scale(1.2);
+	
+}
+#musiccon-three span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#musiccon-three .music-three-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}

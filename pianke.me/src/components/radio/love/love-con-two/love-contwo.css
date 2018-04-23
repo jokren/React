@@ -1,0 +1,194 @@
+.main {
+	width: 960px;
+	margin: 0 auto;
+}
+.lovecon-two{
+	margin-top: 440px;
+}
+/*four*/
+#lovecon-four {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-top: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#lovecon-four .love-four-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#lovecon-four .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#lovecon-four .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#lovecon-four .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#lovecon-four .ting-info .ting-others {
+    font-weight: lighter;
+}
+#lovecon-four .love-four-img img{
+
+	transition: all 0.6s;
+}
+#lovecon-four .love-four-img img:hover{
+	transform: scale(1.2);
+	
+}
+#lovecon-four span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#lovecon-four .love-four-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+
+/*five*/
+#lovecon-five {
+	border: 1px solid #e8e8e8;
+	float: left;
+	margin-top: 20px;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#lovecon-five .love-five-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#lovecon-five .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#lovecon-five .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#lovecon-five .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#lovecon-five .ting-info .ting-others {
+    font-weight: lighter;
+}
+#lovecon-five .love-five-img img{
+
+	transition: all 0.6s;
+}
+#lovecon-five .love-five-img img:hover{
+	transform: scale(1.2);
+	
+}
+#lovecon-five span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#lovecon-five .love-five-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+
+/*six*/
+#lovecon-six {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#lovecon-six .love-six-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#lovecon-six .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#lovecon-six .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#lovecon-six .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#lovecon-six .ting-info .ting-others {
+    font-weight: lighter;
+}
+#lovecon-six .love-six-img img{
+
+	transition: all 0.6s;
+}
+#lovecon-six .love-six-img img:hover{
+	transform: scale(1.2);
+	
+}
+#lovecon-six span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#lovecon-six .love-six-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}

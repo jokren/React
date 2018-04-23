@@ -1,0 +1,38 @@
+.dadio-nav-main {
+	width: 960px;
+	margin: 0 auto;
+}
+.navtop{
+	    padding-top: 280px
+}
+.radio-type-group {
+	
+    border: 1px dashed #333;
+    border-left: none;
+    border-right: none;
+    height: 139px;
+}
+.radio-type-group span{
+	margin-right: 10px;
+}
+.radio-type-cpt img {
+    vertical-align: sub;
+    padding-right: 14px;
+    width: 25px;
+}
+.radio-type-cpt {
+    float: left;
+    height: 54px;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    line-height: 54px;
+    text-align: center;
+    font-size: 17px;
+    margin: 0 4px;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+.radio-type-cpt a {
+    color: #666;
+}

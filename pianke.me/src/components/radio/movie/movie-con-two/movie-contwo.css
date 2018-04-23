@@ -1,0 +1,196 @@
+.movieconmain2 {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.moviecon-two{
+	margin-top: 440px;
+}
+/*four*/
+#moviecon-four {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#moviecon-four .movie-four-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#moviecon-four .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#moviecon-four .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#moviecon-four .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#moviecon-four .ting-info .ting-others {
+    font-weight: lighter;
+}
+#moviecon-four .movie-four-img img{
+
+	transition: all 0.6s;
+}
+#moviecon-four .movie-four-img img:hover{
+	transform: scale(1.2);
+	
+}
+#moviecon-four span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#moviecon-four .movie-four-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+
+/*five*/
+#moviecon-five {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#moviecon-five .movie-five-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#moviecon-five .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#moviecon-five .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#moviecon-five .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#moviecon-five .ting-info .ting-others {
+    font-weight: lighter;
+}
+#moviecon-five .movie-five-img img{
+
+	transition: all 0.6s;
+}
+#moviecon-five .movie-five-img img:hover{
+	transform: scale(1.2);
+	
+}
+#moviecon-five span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#moviecon-five .movie-five-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+
+/*six*/
+#moviecon-six {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#moviecon-six .movie-six-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+#moviecon-six .movie-six-img img{
+	width: 300px;
+	height:  300px;
+}
+#moviecon-six .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#moviecon-six .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#moviecon-six .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#moviecon-six .ting-info .ting-others {
+    font-weight: lighter;
+}
+#moviecon-six .movie-six-img img{
+
+	transition: all 0.6s;
+}
+#moviecon-six .movie-six-img img:hover{
+	transform: scale(1.2);
+	
+}
+#moviecon-six span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#moviecon-six .movie-six-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}

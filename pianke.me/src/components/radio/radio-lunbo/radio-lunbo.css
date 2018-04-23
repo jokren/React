@@ -1,0 +1,61 @@
+.luntan-all {
+		width: 100%;
+		height: 190px;
+		border-radius: 40px;
+		position: relative;
+		text-align: center;
+		padding-top: 100px;
+	}
+	
+	.screen1 {
+		height: 400px;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	.screen1 ul li {
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		float: left;
+		/*position:absolute;*/
+	}
+	
+	.screen1 ul {
+		position: absolute;
+		left: 0;
+		top: 0px;
+		height: 100%;
+		width: 300%;
+		display: flex;
+		background: #fff;
+		overflow: hidden;
+	}
+	
+	.screen1 ul li img {
+		flex: 1;
+    	margin-left: 160px;
+		width: 640px;
+		height: 368px;
+		border-radius: 5px 5px 5px 5px;
+	}
+	
+	ol {
+		position: absolute;
+		bottom: 10%;
+		left: 48%;
+	}
+	
+	ol li {
+		display: inline-block;
+		height: 6px;
+		width: 6px;
+		margin: 0 3px;
+		border-radius: 50%;
+		background: #ebebeb;
+	}
+	
+	.current {
+		background: red;
+	}

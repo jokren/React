@@ -1,0 +1,39 @@
+.main {
+	width: 960px;
+	margin: 0 auto;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    background-image: url("../../img/bgImg.png");
+    background-repeat: repeat-x;
+}
+.radio-type-img{
+	margin-top: 80px;
+}
+.radio-type-img img{
+	margin:  0 auto;
+	width: 196px;
+	height: 196px;
+}
+.radio-type-info {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.radio-type-info .radio-types {
+    padding-top: 50px;
+}
+.radio-type-info .radio-type-link {
+    float: none;
+    margin-top: 0;
+}
+.radio-type-link a {
+    cursor: pointer;
+    padding: 0 10px;
+    color: #999;
+}
+.radio-type-link a:hover{
+    color: #57ad68;
+} 

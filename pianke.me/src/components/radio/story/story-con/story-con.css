@@ -1,0 +1,189 @@
+.storyconmain {
+	width: 960px;
+	margin: 0 auto;
+}
+#storycon-one {
+
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#storycon-one .story-one-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#storycon-one .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#storycon-one .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#storycon-one .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#storycon-one .ting-info .ting-others {
+    font-weight: lighter;
+}
+#storycon-one .story-one-img img{
+
+	transition: all 0.6s;
+}
+#storycon-one .story-one-img img:hover{
+	transform: scale(1.2);
+	
+}
+#storycon-one span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#storycon-one .story-one-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#storycon-two {
+	margin-left: 20px;
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#storycon-two .story-two-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#storycon-two .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#storycon-two .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#storycon-two .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#storycon-two .ting-info .ting-others {
+    font-weight: lighter;
+}
+#storycon-two .story-two-img img{
+
+	transition: all 0.6s;
+}
+#storycon-two .story-two-img img:hover{
+	transform: scale(1.2);
+	
+}
+#storycon-two span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#storycon-two .story-two-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#storycon-three {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#storycon-three .story-three-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+#storycon-three .story-three-img img{
+	width: 300px;
+	height: 300px;
+}
+#storycon-three .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#storycon-three .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#storycon-three .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#storycon-three .ting-info .ting-others {
+    font-weight: lighter;
+}
+#storycon-three .story-three-img img{
+
+	transition: all 0.6s;
+}
+#storycon-three .story-three-img img:hover{
+	transform: scale(1.2);
+	
+}
+#storycon-three span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#storycon-three .story-three-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}

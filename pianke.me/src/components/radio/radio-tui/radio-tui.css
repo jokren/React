@@ -1,0 +1,193 @@
+.radio-tui-main {
+	width: 960px;
+	margin: 0 auto;
+}
+.radio-tui{
+	font-size: 17px;
+	margin-top: 40px;
+}
+#radiocon-one {
+
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#radiocon-one .radio-one-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#radiocon-one .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#radiocon-one .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#radiocon-one .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#radiocon-one .ting-info .ting-others {
+    font-weight: lighter;
+}
+#radiocon-one .radio-one-img img{
+
+	transition: all 0.6s;
+}
+#radiocon-one .radio-one-img img:hover{
+	transform: scale(1.2);
+	
+}
+#radiocon-one span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#radiocon-one .radio-one-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#radiocon-two {
+	margin-left: 20px;
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#radiocon-two .radio-two-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#radiocon-two .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#radiocon-two .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#radiocon-two .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#radiocon-two .ting-info .ting-others {
+    font-weight: lighter;
+}
+#radiocon-two .radio-two-img img{
+
+	transition: all 0.6s;
+}
+#radiocon-two .radio-two-img img:hover{
+	transform: scale(1.2);
+	
+}
+#radiocon-two span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#radiocon-two .radio-two-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#radiocon-three {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#radiocon-three .radio-three-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+#radiocon-three .radio-three-img img{
+	width: 300px;
+	height: 300px;
+}
+#radiocon-three .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#radiocon-three .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#radiocon-three .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#radiocon-three .ting-info .ting-others {
+    font-weight: lighter;
+}
+#radiocon-three .radio-three-img img{
+
+	transition: all 0.6s;
+}
+#radiocon-three .radio-three-img img:hover{
+	transform: scale(1.2);
+	
+}
+#radiocon-three span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#radiocon-three .radio-three-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}

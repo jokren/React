@@ -1,0 +1,186 @@
+.main {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#lovecon-one {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#lovecon-one .love-one-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#lovecon-one .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#lovecon-one .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#lovecon-one .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#lovecon-one .ting-info .ting-others {
+    font-weight: lighter;
+}
+#lovecon-one .love-one-img img{
+
+	transition: all 0.6s;
+}
+#lovecon-one .love-one-img img:hover{
+	transform: scale(1.2);
+	
+}
+#lovecon-one span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#lovecon-one .love-one-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#lovecon-two {
+	margin-left: 20px;
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#lovecon-two .love-two-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#lovecon-two .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#lovecon-two .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#lovecon-two .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#lovecon-two .ting-info .ting-others {
+    font-weight: lighter;
+}
+#lovecon-two .love-two-img img{
+
+	transition: all 0.6s;
+}
+#lovecon-two .love-two-img img:hover{
+	transform: scale(1.2);
+	
+}
+#lovecon-two span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#lovecon-two .love-two-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+/*-----*/
+#lovecon-three {
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 300px;
+	height: 420px;
+	margin-left: 20px;
+	background-color: #fff;
+	color: #333;
+	font-size: 12px;
+	font-weight: 200;
+}
+#lovecon-three .love-three-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+#lovecon-three .ting-info {
+    padding: 25px 20px 13px;
+}
+
+#lovecon-three .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#lovecon-three .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+#lovecon-three .ting-info .ting-others {
+    font-weight: lighter;
+}
+#lovecon-three .love-three-img img{
+
+	transition: all 0.6s;
+}
+#lovecon-three .love-three-img img:hover{
+	transform: scale(1.2);
+	
+}
+#lovecon-three span:nth-child(1){
+	position: absolute;
+	z-index: 9999;
+	font-size: 80px;
+	color: #fff;
+	margin: 30px 100px;
+	opacity: 0;
+	transition: all 0.6s;
+}
+#lovecon-three .love-three-img:hover  span:nth-child(1){
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}

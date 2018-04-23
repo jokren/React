@@ -1,0 +1,228 @@
+
+#indexradio{
+padding-top:140px;
+width:960px;
+margin:0 auto;
+clear:both;
+}
+radio-info-content{
+margin-top:50px;
+}
+radio-info-content .t-img{
+width:300px;
+height:300px;
+overflow:hidden;
+}
+.ting-info-content .ting-info{
+width:609px;
+height:300px;
+margin-top:-300px;
+}
+.radio-info-content .radio-info{
+height:340px;
+float:right;
+width:582px;
+margin-top:-340px;
+font-size:14px;
+font-weight:lighter;
+position:relative;
+color:#999;
+}
+.radio-info-content .radio-info .radio-title{
+font-size:40px;
+color:#333;
+font-weight:400;
+}
+.ting-info-content .ting-info .ting-others{
+color:#999;
+padding-top:9px;
+padding-bottom:14px;
+font-weight:100;
+font-size:12px;
+}
+.ting-info-content .ting-info .aors{
+line-height:23px;
+font-weight:100;
+font-size:14px;
+color:#999;
+}
+.ting-info-content .ting-info .aors {
+line-height: 23px;
+font-weight: 100;
+font-size: 14px;
+color: #999;
+}
+.ting-info-content .ting-info .aors a {
+font-weight: 200;
+color: #57ad68;
+}
+.ting-info-content .ting-info .play-all {
+bottom: 0;
+}
+.radio-info-content .radio-info .play-all {
+bottom: 35px;
+position: absolute;
+width: 129px;
+height: 50px;
+line-height: 50px;
+}
+.btn-play {
+z-index:-1;
+background-color:#fff;
+background-image: url(https://qnstatic.pianke.me/public/assets/img/radio-play.png);
+}
+.btn-pause, .btn-play {
+background-repeat: no-repeat;
+background-size: 30px;
+background-position: 12px center;
+}
+.play-status-btn {
+padding-right:10px;
+position:absolute;
+color: #57ad68;
+cursor: pointer;
+-ms-border-radius: 25px;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+font-weight: 200;
+border: 1px solid #57ad68;
+padding-left: 53px;
+}
+.btn-pause {
+background-color:#fff;
+background-image: url(https://qnstatic.pianke.me/public/assets/img/radio-pause.png);
+}
+.ting-info-content .ting-info .ting-like {
+height: 50px;
+position: absolute;
+bottom: 0;
+right: 0;
+line-height: 50px;
+text-align: right;
+margin-right: 54px;
+}
+.ting-like {
+background-size: 19px;
+padding-left: 0;
+margin-right: 30px;
+margin-left: 60px;
+}
+.likes-cpt {
+color: #999;
+cursor: pointer;
+width: 24px;
+height: 22px;
+font-size: 14px;
+background-position: 0 center;
+padding-left: 34px;
+line-height: 22px;
+background-size: 24px;
+background-repeat: no-repeat;
+background-image: url(https://qnstatic.pianke.me/public/assets/img/like.png);
+}
+.ting-info-content .ting-info .ting-like:before {
+content: '';
+position: absolute;
+width: 1px;
+height: 24px;
+background-color: #e8e8e8;
+top: 12px;
+right: 0;
+margin-right: -16px;
+}
+.ting-info-content .ting-info .ting-share {
+position: absolute;
+bottom: 0;
+right: 0;
+height: 50px;
+}
+.ting-info-content .ting-info .ting-share .ting-share-icon {
+padding-left: 0;
+height: 50px;
+background-position: right;
+}
+.share-icon-cpt {
+cursor: pointer;
+width: 16px;
+height: 16px;
+padding-left: 16px;
+background-size: 16px;
+background-repeat: no-repeat;
+background-image: url(https://qnstatic.pianke.me/public/assets/img/share.png);
+}
+
+/*原文*/
+.title-cpt {
+clear: both;
+padding-bottom: 40px;
+background-repeat: no-repeat;
+padding-top: 70px;
+padding-left: 28px;
+background-position: 0 74px;
+background-image: url(https://qnstatic.pianke.me/public/assets/img/square.png);
+}
+.ting-article-content .art-content {
+border: 1px solid #e8e8e8;
+line-height: 24px;
+margin-bottom: 50px;
+-ms-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding: 30px 127px;
+padding-bottom: 50px;
+font-weight: 200;
+background-color: #fff;
+font-size: 14px;
+color: #333;
+position: relative;
+}
+.view-all {
+padding-left: 10px;
+position: relative;
+}
+.ting-article-content .art-content .view-all {
+font-size: 12px;
+padding-top: 2px;
+}
+.view-all a {
+ color: #78bc85;
+ font-weight: 200;
+ }
+.view-all a img {
+vertical-align: baseline;
+width: 5px;
+padding-left: 3px;
+}
+
+/*发送*/
+#bg1{
+background-color:#fafafa;
+}
+.btn-group{
+cursor: pointer;
+width: 100%;
+position: absolute;
+bottom: 0;
+background-color: #f5f5f5;
+border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+}
+.btn-group div{
+line-height: 52px;
+text-align: center;
+display: inline-block;
+width: 49%;
+}
+.btn-group>div:first-child{
+border-bottom-left-radius: 6px;
+border-right: 1px solid #fff;
+color: #999;
+}
+.btn-group > div:nth-child(2) {
+border-bottom-right-radius: 6px;
+color: #57ad68;
+}
+
+

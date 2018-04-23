@@ -1,0 +1,216 @@
+.login {
+    display: none;
+    overflow: scroll;
+    width: 100%;
+    position: fixed;
+    z-index: 1001;
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    background-repeat: repeat-x;
+    font-family: "PingFang SC","微软雅黑";
+    color: #333
+}
+.login .close-login-box {
+    cursor: pointer;
+    background-image: url(../client/img/close-login.png);
+    background-size: 20px;
+    height: 20px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    margin-top: 25px;
+    width: 20px;
+    float: right;
+}
+.login .login-box {
+    position: absolute;
+    font-weight: 300;
+    width: 500px;
+    top: 50%;
+    margin-top: -345px;
+    left: 50%;
+    margin-left: -250px;
+    height: 690px;
+    background-repeat: no-repeat;
+    background-image: url(../client/img/login-bg.png);
+    background-size: cover;
+}
+.login .login-box .pianke-text {
+    text-align: center;
+    padding-top: 146px;
+    color: #231916;
+    font-weight: 200;
+    font-size: 16px;
+}
+.login .login-box .type-title-cpt {
+    padding-top: 73px;
+    padding-bottom: 27px;
+    text-align: center;
+}
+.type-title-cpt {
+    clear: both;
+    padding-bottom: 34px;
+    padding-top: 40px;
+    color: #999;
+    font-size: 16px;
+}
+.login .login-box .type-title-cpt span:first-child {
+    margin-right: 70px;
+}
+.type-title-cpt .active {
+    color: #333;
+}
+.type-title-cpt .active:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    top: 30px;
+    left: 0;
+}
+.type-title-cpt span {
+    cursor: pointer;
+    position: relative;
+}
+.login-warn {
+    position: absolute;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    color: #e86f6f;
+}
+.login-input {
+    width: 270px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.login-input input {
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 270px;
+    height: 33px;
+    outline: none;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid transparent;
+    color: #333;
+    border-bottom-color: #e8e8e8;
+}
+input[placeholder] {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #ccc;
+}
+.login .login-box .forget-psw {
+    width: 270px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 10px;
+}
+.login .login-box .forget-psw a {
+    color: #ccc;
+}
+.login .login-box .login-btn {
+    margin: 0 auto;
+    margin-top: 38px;
+    margin-bottom: 33px;
+}
+.login .login-box .login-btn {
+    width: 172px;
+    font-size: 16px;
+}
+.login-btn {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 44px;
+    width: 126px;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid rgba(120,188,133,0.5);
+    -ms-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    color: #57ad68;
+    cursor: pointer;
+}
+.login .login-box .login-others-way {
+    margin: 0 auto;
+    padding-top: 16px;
+    width: 400px;
+    border-top: 1px solid #f2f2f2;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+}
+.login .login-box .login-others-way .share-cpt {
+    float: none;
+    margin-top: 23px;
+    cursor: pointer;
+}
+.share-cpt > div {
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+.share-cpt .share-sina {
+    background-image: url(../client/img/foot-sinaH.png);
+}
+.share-cpt .share-wechat {
+    position: relative;
+    background-image: url(../client/img/foot-wechatH.png);
+}
+.share-cpt .share-qq {
+    background-image: url(../client/img/qq.png);
+}
+.share-cpt .share-dou {
+    background-image: url(../client/img/dou.png);
+}
+.share-cpt .share-sina:hover {
+    background-image: url(../client/img/share-sina.png);
+}
+.share-cpt .share-qq:hover {
+    background-image: url(../client/img/share-qq.png);
+}
+.share-cpt .share-wechat:hover {
+    background-image: url(../client/img/share-wechat.png);
+}
+.share-cpt .share-dou:hover {
+    background-image: url(../client/img/share-dou.png);
+}
+.login .login-box .register-content {
+    margin: 0 auto;
+    margin-bottom: 37px;
+    margin-top: 10px;
+    background-position: center;
+    width: 134px;
+    height: 212px;
+    background-image: url(../client/img/wechat-bg.png);
+    background-size: 134px;
+    background-repeat: no-repeat;
+}
+.login .login-box .register-content img {
+    width: 92px;
+    height: 92px;
+    margin-top: 70px;
+    margin-left: 21px;
+    position: absolute;
+}

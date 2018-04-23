@@ -1,0 +1,101 @@
+footer {
+    clear: both;
+    height: 118px;
+    min-width: 1200px;
+    width: 100%;
+    background-color: #1a1818;
+    color: #666;
+    font-size: 12px;
+}
+footer .foot {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+footer .foot .foot-logo {
+    background-image: url(../client/img/foot-logo.png);
+    width: 100px;
+    height: 118px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer .foot .foot-link {
+    line-height: 25px;
+    padding-left: 120px;
+    margin-top: -80px;
+}
+footer .foot .foot-link a {
+    color: #666;
+    padding-right: 10px;
+}
+footer .foot .foot-icon {
+    margin-top: -44px;
+    float: right;
+}
+footer .foot .foot-icon div:nth-child(1) {
+    width: 44px;
+    height: 44px;
+    margin-right: 18px;
+}
+footer .foot .foot-icon .foot-app {
+    background-image: url(../client/img/foot-app.png);
+}
+footer .foot .foot-icon div {
+    position: relative;
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer .foot .foot-icon a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+footer .foot .foot-icon .foot-weibo {
+    background-image: url(../client/img/foot-sina.png);
+}
+footer .foot .foot-icon div:nth-child(2) {
+    width: 44px;
+    height: 44px;
+    margin-right: 18px;
+}
+footer .foot .foot-icon div:nth-child(3) {
+    width: 44px;
+    height: 44px;
+    margin-right: 18px;
+}
+footer .foot .foot-icon .foot-wechat {
+    background-image: url(../client/img/foot-wechat.png);
+}
+footer .foot .foot-icon div:nth-child(4) {
+    width: 44px;
+    height: 44px;
+    margin-right: 18px;
+}
+footer .foot .foot-icon .foot-safe {
+    margin-left: 31px;
+    width: 86px !important;
+    background-image: url(../client/img/foot-safe.png);
+}
+.back-top:hover {
+    background-image: url(../client/img/back-topH.png);
+    opacity: .8;
+}
+.back-top {
+    display: none;
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 170px;
+    right: 50px;
+    background-image: url(../client/img/back-top.png);
+    background-size: cover;
+    opacity: .1;
+}
