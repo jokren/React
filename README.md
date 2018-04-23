@@ -6,7 +6,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ## 演示页面
 [演示页面](http://localhost:3000/#/).
 
-## 介绍
+## PIANKE介绍
 ######  环境依赖
 node v0.10.28+
 reids ~
